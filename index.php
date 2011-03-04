@@ -2,11 +2,12 @@
 session_start();
 require_once 'registration.php';
 require 'facebook/facebook.php';
-$salt = "omgimasecretsaltforthelolzbbq";
+$salt = "typearandomsalt";
+$maps_key = "yourgooglemapskey";
 
 $facebook = new Facebook(array(
-	'appId'  => '168055916553567',
-	'secret' => '364ffa54ea500f5e2913c1858ec03b5b',
+	'appId'  => 'yourfbappid',
+	'secret' => 'yourfbsecret',
 	'cookie' => true,
 ));
 
@@ -26,9 +27,6 @@ $facebook_logout_url = $facebook->getLogoutUrl();
 $registration = new Registration(array_merge($_POST, $_GET, $me));
 $verified_is_registered = $registration->verified_is_registered();
 
-$maps_key = $_SERVER['HTTP_HOST'] == "guadalajaradevhouse.org" ? 
-									 "ABQIAAAAd24bisosjRxD6MwlWnednBTjQPnm6iBK50wNhgKXBJlqDEEyKRQWktDtV5S3V4JPoi_4Uf22wV5V-g":
-									 "ABQIAAAAd24bisosjRxD6MwlWnednBRi_j0U6kJrkFvY4-OX2XYmEAa76BTFFOTq26iFsIWCCb0Z3ds5hLreGg";
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
