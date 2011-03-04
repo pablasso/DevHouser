@@ -1,0 +1,4 @@
+A simple project to manage SuperHappyDevHouse registrations.
+
+- Edit registration.php to set up the database.
+- Twitter config: twitter/twitter.config.php
