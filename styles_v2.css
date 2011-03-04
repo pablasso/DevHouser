@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "MS Trebuchet", Helvetica, Arial, sans-serif;
+	line-height: 120%;
+	font-size: 95%;
+	background: #F2F2EA;
+}
+h1, h2, h3 {
+	color: #3E3E3D;
+	font-family: "museo-1", "museo-2", serif;
+}
+
+h1 {
+	font-size: 3.2em;
+	font-weight: 300;
+	margin-bottom: 40px;
+	text-align: center;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+#content {
+	margin: 0 auto;
+	width: 975px;
+}
+#edition_image {
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
+.address {
+	font-size: 75%;
+	text-align: right;
+	margin: 5px 0px -5px;
+}
+input {
+	margin: 5px;
+}
+.input_small {
+	width: 200px;
+}
+.input_med {
+	width: 323px;
+}
+.input_large {
+	width: 500px;
+}
+.submit {
+	margin: 0px;
+}
+table {
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 95%;
+	border: 1;
+	width: 100%;
+	margin-bottom: 30px;
+	background: #EEEEEE none repeat scroll 0 0;
+}
+thead th, thead td {
+	background: #3E3E3D none repeat scroll 0 0;
+	color: #F2F2EA;
+	font-family: "museo-1", "museo-2", serif;
+}
+th, td {
+	background: #EEEEEE none repeat scroll 0 0;
+	border: 1px solid #FFFFFF;
+	font-weight: normal;
+	padding: 0.4em 0.7em;
+	text-align: left;
+	vertical-align: center;
+}
+.t_name {
+	width: 22%;
+}
+.t_twitter {
+	background: url(images/twitter16x16.png) no-repeat;
+}
+.t_facebook {
+	background: url(images/facebook16x16.png) no-repeat;
+}
+.t_description {
+	width: 58%;
+}
+a:hover {
+	text-decoration: none;
+}
+a, a:link, a:visited {
+	color: #3E3E3D;
+	font-weight: bold;
+}
+.message {
+	padding: 15px;
+	font-family: "museo-1", "museo-2", serif;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: center;
+	vertical-align: center;
+	background: #3E3E3D;
+	color: #F2F2EA;
+}
+.next_event {
+	margin: 30px;
+	font-family: "museo-1", "museo-2", serif;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+	background: #3E3E3D;
+	color: #F2F2EA;
+	padding: 20px;
+}
+.small_next_event {
+	font-size:.6em;
+}
+.register_container {
+	font-family: "museo-1", "museo-2", serif;
+	overflow:hidden;
+	margin: auto;
+	width: 580px;
+	background: #3E3E3D;
+	color: #F2F2EA;
+	padding: 20px;
+}
+.register_left {
+	width: 60px;
+	float: left;
+	vertical-align: center;
+	text-align: center;
+	margin: auto auto;
+}
+.register_right {
+	width: 500px;
+	float: right;
+	margin-left: 20px;
+}
+.login-buttons {
+	margin: 20px auto 20px; 
+	width: 35%; 
+	text-align:center; 
+	vertical-align:center; 
+	overflow:hidden;
+}
+.twitter-button {	
+	float: left;
+	width: 50%;
+}
+.facebook-button {
+	float: right;
+	width: 50%;	
+}
